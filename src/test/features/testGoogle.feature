@@ -1,3 +1,4 @@
+@all
 Feature: TestGoogle
   Scenario: Search of google
     Given User opened a browser

@@ -2,4 +2,7 @@
     <item name='cucumber.api.java.en.Given'>
         <annotation name='java.lang.Deprecated'/>
     </item>
+    <item name='cucumber.api.java.en.When'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
 </root>
