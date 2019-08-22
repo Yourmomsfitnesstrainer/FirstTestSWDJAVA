@@ -31,30 +31,35 @@ public class MyStepdefs {
 
 
     @When("^User fills in the search bar$")
-    public void userFillsInTheSearchBar() {
+    public void userFillsInTheSearchBar()
+    {
         driver.get("https://google.com/");
     }
 
     @Then("^User is on google page$")
-    public void userIsOnGooglePage() {
+    public void userIsOnGooglePage()
+    {
         WebElement fieldSearch = driver.findElement(By.xpath("//input[@class='gLFyf gsfi']"));
         fieldSearch.sendKeys("Selenium Webdriver + Java");
     }
 
     @And("^User clicks on search button$")
-    public void userClicksOnSearchButton() {
+    public void userClicksOnSearchButton()
+    {
         WebElement buttonSearch = driver.findElement(By.xpath("//div[@class='FPdoLc VlcLAe']//input[@value='Поиск в Google']"));
         buttonSearch.submit();
     }
 
     @Then("^User sees the first result$")
-    public void userSeesTheFirstResult() {
+    public void userSeesTheFirstResult()
+    {
         WebElement firtsTitleResultOfSearch = driver.findElement(By.xpath("//*[starts-with(text(), 'Selenium WebDriver - Selenium ')]"));
         firtsTitleResultOfSearch.click();
     }
 
     @And("^Close browser$")
-    public void closeBrowser() {
+    public void closeBrowser()
+    {
         driver.quit();
     }
 }
