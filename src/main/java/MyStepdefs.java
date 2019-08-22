@@ -18,7 +18,8 @@ public class MyStepdefs {
 
 
     @Given("^User opened a browser$")
-    public void userOpenedABrowser() {
+    public void userOpenedABrowser()
+    {
             System.setProperty("webdriver.gecko.driver", "C:\\Users\\dns\\IdeaProjects\\testselenium\\drivers\\geckodriver.exe");
 
             WebDriver driver = new FirefoxDriver();
