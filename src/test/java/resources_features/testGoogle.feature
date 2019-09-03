@@ -1,6 +1,6 @@
 @all
 Feature: TestGoogle
-  @all1
+  @all
   Scenario: Search of google
 
     Given User opened a browser

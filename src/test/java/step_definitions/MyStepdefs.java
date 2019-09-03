@@ -1,3 +1,6 @@
+package step_definitions;
+
+import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -6,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -13,25 +17,37 @@ import java.util.concurrent.TimeUnit;
 
 public class MyStepdefs {
 
+    public static ChromeDriver driver;
 
-    WebDriver driver = new FirefoxDriver();
 
+    @Before
+    public void beforeMethod() {
+        driver = new ChromeDriver();
+        driver.manage().window().setSize(new Dimension(1280, 720));
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get("https://google.com/");
+
+
+    }
 
     @Given("^User opened a browser$")
     public void userOpenedABrowser() {
-            System.setProperty("webdriver.gecko.driver", "C:\\Users\\dns\\IdeaProjects\\testselenium\\drivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\dns\\IdeaProjects\\FirstTestSWDJAVA\\drivers\\chromedriver73.exe");
 
-            WebDriver driver = new FirefoxDriver();
+//        WebDriver driver = new ChromeDriver();
 
-            driver.manage().window().setSize(new Dimension(1280, 720));
 
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        driver.manage().window().setSize(new Dimension(1280, 720));
+//
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
 
     @When("^User fills in the search bar$")
     public void userFillsInTheSearchBar() {
-        driver.get("https://google.com/");
+//        driver.get("https://google.com/");
+
     }
 
     @Then("^User is on google page$")
@@ -56,5 +72,7 @@ public class MyStepdefs {
     public void closeBrowser() {
         driver.quit();
     }
+
 }
+
 
