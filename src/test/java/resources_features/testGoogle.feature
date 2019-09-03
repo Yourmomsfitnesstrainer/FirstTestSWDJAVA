@@ -1,6 +1,8 @@
 @all
 Feature: TestGoogle
+  @all1
   Scenario: Search of google
+
     Given User opened a browser
     When User is on google page
     Then User fills in the search bar
