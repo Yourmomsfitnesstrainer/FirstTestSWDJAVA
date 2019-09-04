@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80415c6a-1043-4c7c-9ffd-4b957e013c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/testGoogle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources_features/testGoogle.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyStepdefs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestRunner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources_features/testGoogle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources_features/testGoogle.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MyStepdefs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/resources_features/testGoogle.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="102">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -34,12 +28,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+            <state relative-caret-position="165">
+              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2125#2126#0" expanded="true" />
-                <element signature="e#2154#2155#0" expanded="true" />
+                <element signature="e#2112#2113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,20 +41,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <marker date="1567529304406" expanded="true" signature="373:484" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -187,19 +172,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567538885180" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567622079571" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-webdriver-cucumber" />
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -324,43 +309,45 @@
       <workItem from="1566925898229" duration="3916000" />
       <workItem from="1567087143258" duration="966000" />
       <workItem from="1567528063957" duration="8546000" />
+      <workItem from="1567539092103" duration="314000" />
+      <workItem from="1567615771028" duration="6363000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 11m 57s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 20m 27s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 16m 05s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 21m 17s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 21m 30s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 22m 29s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 21m 57s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 23m 37s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 22m 50s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 24m 20s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 23m 31s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 26m 16s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 24m 14s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 27m 07s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 25m 18s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 30m 00s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 26m 12s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 30m 07s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__testGoogle - 2019.09.03 at 22h 26m 36s.xml">
+    <history-entry file="Feature__testGoogle - 2019.09.04 at 21h 33m 33s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59764000" />
+    <option name="totallyTimeSpent" value="66441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,7 +362,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2048583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21133603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,8 +372,8 @@
       <window_info anchor="bottom" id="Duplicate detector" order="0" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.42984015" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39786857" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.28419182" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39431617" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3285968" />
@@ -436,38 +423,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs1.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources_features/testGoogle.feature">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runner/Runner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="72">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="204">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runtime/StepDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
+            <element signature="imports" expanded="true" />
             <marker date="1567529304406" expanded="true" signature="373:484" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runtime/Timeout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runtime/HookDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/api/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/api/TestStep.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runner/UnskipableStep.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/2.4.0/cucumber-java-2.4.0.jar!/cucumber/runtime/java/JavaHookDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#1104#2182#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources_features/testGoogle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/MyStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
         </state>
       </provider>

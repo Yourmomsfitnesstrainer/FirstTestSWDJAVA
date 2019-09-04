@@ -3,8 +3,8 @@ Feature: TestGoogle
   @all
   Scenario: Search of google
 
-    Given User opened a browser
-    When User is on google page
+
+    When User go to "google.com"
     Then User fills in the search bar
     And  User clicks on search button
     Then User sees the first result
