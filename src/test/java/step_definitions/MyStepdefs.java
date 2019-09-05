@@ -39,7 +39,7 @@ public class MyStepdefs {
         if (url.equals("google.com")) {
             driver.get("https://www.google.com");
         } else{
-            System.out.println("Сасай-масай");
+            System.out.println("Тю Тю");
         }
 
     }
