@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
@@ -56,6 +57,20 @@ public class MyStepdefs {
         buttonSearch.submit();
     }
 
+
+    @Then("^The user writes the query results to the collection$")
+    public void theUserWritesTheQueryResultsToTheCollection() {
+
+        List<WebElement> HeadersForQueryResults = driver.findElements(By.xpath("//a//h3"));
+
+        for (WebElement TextOfHeaders : HeadersForQueryResults) {
+
+            String strTextOfHeaders = TextOfHeaders.getText();
+            System.out.println(strTextOfHeaders);
+        }
+    }
+
+
     @Then("^User sees the first result$")
     public void userSeesTheFirstResult() {
         WebElement firtsTitleResultOfSearch = driver.findElement(By.xpath("//*[starts-with(text(), 'Selenium WebDriver - Selenium ')]"));
@@ -66,7 +81,6 @@ public class MyStepdefs {
     public void closeBrowser() {
         driver.quit();
     }
-
 
 }
 
