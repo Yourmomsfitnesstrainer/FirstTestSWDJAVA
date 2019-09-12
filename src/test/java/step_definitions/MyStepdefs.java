@@ -21,7 +21,7 @@ public class MyStepdefs {
 
     public static ChromeDriver driver;
     
-// Comment
+// Comments
 
     @Before
     public void beforeMethod() {
