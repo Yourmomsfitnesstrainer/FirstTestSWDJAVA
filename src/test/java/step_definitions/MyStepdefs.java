@@ -39,7 +39,7 @@ public class MyStepdefs {
     public void userGoTo(String url) {
         if (url.equals("google.com")) {
             driver.get("https://www.google.com");
-        } else{
+        } else {
             System.out.println("Тю Тю");
         }
 
@@ -58,16 +58,26 @@ public class MyStepdefs {
     }
 
 
-    @Then("^The user writes the query results to the collection$")
-    public void theUserWritesTheQueryResultsToTheCollection() {
-
+    /*public static class ListElementsOnPage {
         List<WebElement> HeadersForQueryResults = driver.findElements(By.xpath("//a//h3"));
+
+
+    }*/
+
+
+    @Then("^The user writes the query results to the collection$")
+    public static List<WebElement> theUserWritesTheQueryResultsToTheCollection() {
+//        ListElementsOnPage ListElementsOfGooglePage = new ListElementsOnPage();
+        List<WebElement> HeadersForQueryResults = driver.findElements(By.xpath("//a//h3"));
+
 
         for (WebElement TextOfHeaders : HeadersForQueryResults) {
 
             String strTextOfHeaders = TextOfHeaders.getText();
             System.out.println(strTextOfHeaders);
+
         }
+        return HeadersForQueryResults;
     }
 
 
@@ -81,6 +91,7 @@ public class MyStepdefs {
     public void closeBrowser() {
         driver.quit();
     }
+
 
 }
 
