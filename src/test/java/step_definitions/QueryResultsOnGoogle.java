@@ -1,3 +1,4 @@
+/*
 package step_definitions;
 
 import org.openqa.selenium.WebElement;
@@ -22,3 +23,4 @@ public class QueryResultsOnGoogle extends MyStepdefs{
     }
 }
 
+*/
