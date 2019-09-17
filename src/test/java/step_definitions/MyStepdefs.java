@@ -81,25 +81,26 @@ public class MyStepdefs {
     @Then("^User sees the first result$")
     public void userSeesTheFirstResult() throws InterruptedException {
 
+        WebElement firtsTitleResultOfSearch = driver.findElement(By.xpath("//*[starts-with(text(), 'Selenium WebDriver - Selenium ')]"));
+
+        firtsTitleResultOfSearch.click();
+        Thread.sleep(3000);
+        String urlFirstTitleResultOfSearch = driver.getCurrentUrl();
 
         driver.executeScript("window.open('about:blank','_blank');");
-
-        Thread.sleep(2000);
 
         Set<String> windowId = driver.getWindowHandles();
         Iterator<String> iter = windowId.iterator();
 
-        String mainWondow = iter.next();
-        String childWondow= iter.next();
+        String mainWindow = iter.next();
+        String childWindow= iter.next();
 
-        driver.switchTo().window(childWondow);
-        driver.get("https://vk.com/feed");
+        driver.switchTo().window(childWindow);
+        driver.get(urlFirstTitleResultOfSearch);
+        Thread.sleep(3000);
         driver.close();
-        driver.switchTo().window(mainWondow);
+        driver.switchTo().window(mainWindow);
 
-        WebElement firtsTitleResultOfSearch = driver.findElement(By.xpath("//*[starts-with(text(), 'Selenium WebDriver - Selenium ')]"));
-
-        firtsTitleResultOfSearch.click();
 
 
     }

@@ -4,8 +4,6 @@
     <list default="true" id="80415c6a-1043-4c7c-9ffd-4b957e013c25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/QueryResultsOnGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/QueryResultsOnGoogle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/MyStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/MyStepdefs.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+            <state relative-caret-position="91">
+              <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/QueryResultsOnGoogle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="204">
               <caret line="12" column="26" selection-end-line="26" />
             </state>
           </provider>
@@ -93,7 +91,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-320" />
+    <option name="x" value="-321" />
     <option name="y" value="-24" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
@@ -104,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -164,7 +163,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,13 +315,12 @@
       <workItem from="1568285506321" duration="3000000" />
       <workItem from="1568409961240" duration="10000" />
       <workItem from="1568534898033" duration="7094000" />
+      <workItem from="1568621260697" duration="121000" />
+      <workItem from="1568723687979" duration="228000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__testGoogle - 2019.09.15 at 12h 25m 47s.xml">
-      <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__testGoogle - 2019.09.15 at 12h 26m 46s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -351,9 +348,12 @@
     <history-entry file="Feature__testGoogle - 2019.09.15 at 13h 05m 47s.xml">
       <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__testGoogle - 2019.09.17 at 15h 37m 56s.xml">
+      <configuration name="Feature: testGoogle" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101167000" />
+    <option name="totallyTimeSpent" value="101516000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -368,7 +368,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49560118" visible="true" weight="0.11255061" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49560118" visible="true" weight="0.11578947" />
       <window_info id="Structure" order="1" sideWeight="0.5043988" side_tool="true" weight="0.2340081" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -581,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/QueryResultsOnGoogle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="12" column="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/resources_features/testGoogle.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -604,11 +597,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/MyStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+        <state relative-caret-position="91">
+          <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/QueryResultsOnGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
